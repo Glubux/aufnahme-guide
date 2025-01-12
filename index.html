@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufnahme Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aufnahme Guide</h1>
+    </header>
+
+    <div class="main-container">
+        <nav>
+            <h2>Inhalt:</h2>
+            <ul>
+                <li><a href="#" onclick="showContent('startseite')">> Startseite</a></li>
+                <li><a href="#" onclick="showContent('iphone')">> iPhone</a></li>
+                <li><a href="#" onclick="showContent('externes-mikrofon')">> Externes Mikrofon am Laptop</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="startseite" class="content-section active">
+                <h1>Danke, dass ihr diese zusätzlichen Aufnahmen noch extra macht!</h1>
+                <p>Auf der linken Seite findet ihr kurze Anleitungen falls ihr mit dem Smartphone oder - falls ihr sogar ein Mikrofon habt - aufnehmen könnt und welche Einstellungen ihr am besten macht. Vielen vielen Dank schon mal!</p>
+
+                <div>
+                    <h2>Allgemeine Tipps / Hinweise fürs Aufnehmen</h2>
+                    <ul>
+                        <li>Am besten in einem Raum, in dem es ruhig ist und nicht hallt.</li>
+                        <li>Vorhänge oder Stoff im allgemeinen sind speziell in kleineren Räumen vorteilhaft.</li>
+                        <li>Anstelle kann man auch mit dem offenen Kleiderschrank im Rücken aufnehmen um einen besseren Raumklang zu bekommen</li>
+                        <li>Das Mikrofon (Handy oder extern) sollte so viel Abstand zu euch haben, dass ihr in normaler Lautstärke spielen könnt, ohne dass es übersteuert</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="iphone" class="content-section">
+                <h1>Aufnehmen mit iPhone</h1>
+                <p>Wenn man mit dem iPhone aufnimmt, ist das meiste schon gut eingestellt. Es gibt jedoch immer noch ein paar Dinge, mit denen man die Aufnahme verbessern kann.</p>
+                <div>
+                    <p>Sprachmemo Qualität in den Einstellungen anpassen</p>
+                    <ul>
+                        <li>Die App Einstellungen öffnen</li>
+                        <p>IOS 18 und höher:</p>
+                        <li>ganz unten den Tab "Apps" öffnen</li>
+                        <p>vor IOS 18:</p>
+                        <li>runter scrollen</li>
+                        <p>wieder gleich:</p>
+                        <li>den "Sprachmemos" Tab öffnen</li>
+                        <li>Beim Tab "Audioqualität" auf "Verlustfrei" setzen</li>
+                        <li>Außerdem Stereoaufnahme aktivieren</li>
+                    </ul>
+                    <img src="./img/sprachmemos.png" alt="">
+                </div>
+                <div>
+                    <h2>Speichern und Verschicken</h2>
+                    <p>Um die Aufnahmen zu verschicken:</p>
+                    <ul>
+                        <li>Audio/s auswählen -> "teilen" -> "In Dateien sichern" -> in einem neuen Ordner speichern</li>
+                        <li>In der App "Dateien" -> Ordner lange anklicken -> "Komprimieren"</li>
+                        <li>Diesen Ordner verschicken, dadurch ist er kleiner und wird nicht von WhatsApp oder so verändert.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="externes-mikrofon" class="content-section">
+                <h1>Aufnehmen mit externem Mikrofon am Laptop</h1>
+                <p>Falls ein externes Mikrofon z.B. mit USB vorhanden ist, lohnt es sich meistens, dieses zu verwenden. Das eingebaute Laptop-Mikrofon ist meist nicht empfehlenswert, da die in Smartphones eingebauten Mikrofone um einiges besser sind.</p>
+                <div>
+                    <h2>Geeignetes Aufnahme-Programm</h2>
+                    <p>Insofern keines vorhanden ist, mit dem man sich auskennt, ist <a href="https://www.audacityteam.org/">Audacity</a> sehr gut und gratis.</p>
+                    <ul>
+                        <li>Audacity auf dieser Seite herunterladen: <a href="https://www.audacityteam.org/">https://www.audacityteam.org/</a>.</li>
+                        <li>Dadurch wird der "MuseHub" heruntergeladen, der auch Audacity enthält.</li>
+                        <li>Installationsdatei öffnen und den Dialog durchklicken.</li>
+                        <li>Falls man aufgefordert wird, sich anzumelden, muss man das nicht tun.</li>
+                        <li>Im Suchfeld oder im Tab "Apps" nach "Audacity" suchen.</li>
+                        <li>Auf den Button "Free" klicken, das Programm wird installiert und danach öffnet sich der Button "Launch".</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Einstellungen in Audacity</h2>
+                    <p>Einstellungen öffnen mit der Tastenkombination "Ctrl + P"</p>
+                    <ul>
+                        <li>Tab "Audio-Einstellungen"
+                            <ul>
+                                <li>Bei Aufnahme: das Gerät auf das externe Mikrofon stellen</li>
+                                <li>Falls nicht bereits: "Kanäle" (direkt darunter) auf "2 (Stereo)" stellen</li>
+                                <li>Optional: Bei Wiedergabe: Kopfhörer/Boxen usw. auswählen</li>
+                            </ul>
+                        </li>
+                        <li>Tab "Qualität"
+                            <ul>
+                                <li>Bei Echtzeit-Umwandlung: "Abtastraten-Konverter" wenn möglich auf "hohe" oder "beste" Qualität setzen</li>
+                                <li>Auch bei Hochwertiger Umwandlung: "Abtastraten-Konverter" wenn möglich auf "hohe" oder "beste" Qualität setzen</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Aufnehmen</h2>
+                    <ul>
+                        <li>Aufnahme starten: roten Knopf oben im Programm</li>
+                        <li>Aufnahme beenden: schwarzes Rechteck</li>
+                        <li>Abspielen: Leertaste oder grüner Pfeil</li>
+                        <li>Audio-Spur löschen: oberhalb der "Wellen" auf den Namen Linksklick und danach "Delete" Taste</li>
+                        <li>Ein Teil der Audio löschen: Ausschnitt in der Audio markieren und "Delete"</li>
+                    </ul>
+                    <p>Wenn man mehrere Aufnahmen bzw. Spuren machen möchte, muss man folgendes beachten:</p>
+                    <ul>
+                        <li>Neue Spur erstellen: unterhalb der letzten Rechtsklick und "Stereo-Spur hinzufügen" auswählen</li>
+                        <li>Spur muten: damit beim Aufnehmen nicht die alten Spuren abgespielt werden: bei allen anderen auf der linken Seite auf "Mute" drücken</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Speichern, Exportieren und Verschicken</h2>
+                    <p>Um die Aufnahmen zu verschicken:</p>
+                    <ul>
+                        <li>Als Projekt-Datei speichern: "Datei" -> "Projekt Speichern" -> "Projekt Speichern"</li>
+                        <li>Als Audio exportieren: "Datei" -> "Audio Exportieren" -> "Auf dem Computer exportieren"</li>
+                        <li>Projekt-Datei sowie MP3 in gleichem neuen Ordner speichern</li>
+                        <li>Komprimieren: Rechtsklick -> "Komprimieren in" -> "Zip-Datei"</li>
+                        <li>Diesen Ordner verschicken, dadurch ist er kleiner und wird nicht von WhatsApp oder so verändert.</li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Flurin. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
